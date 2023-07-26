@@ -1,0 +1,115 @@
+body html {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+#main {
+height: 80vh;
+width: 100%;
+overflow:hidden;
+display: flex;
+}
+
+#heroText {
+    width: 50%;
+    height 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+#subText {
+    height: 40%;
+    width: 60%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+#keyNotes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width:90%;
+    height: auto;
+}
+
+.notes {
+    border-right: solid 1px white;
+    height: auto; 
+    min-width: 20%;
+    max-width: 33%;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.notes h6 {
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+    line-height: 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    
+}
+
+.notes h6 {
+    font-size: 24px;
+    color: gray;
+    font-weight: 700;
+    line-height: 0px;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+#bgvid {
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #mainVideo {
+    height: 100%;
+    width: 100%;
+}
+
+#heroimage {
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+    z-index: 10;
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    flex-direction: column;
+
+}
+#bikeMain {
+    height: 50%;
+    width: 80%;
+    display: flex;
+}
+
+#bikeMain img {
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
